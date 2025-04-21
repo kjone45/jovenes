@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ECEM - Estructura Cristiana de Evangelización Mundial, una comunidad dedicada a la evangelización y el fortalecimiento de la fe cristiana.">
+    <title>ECEM - Estructura Cristiana de Evangelización Mundial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background_praying.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header .logo img {
+            width: 80px;
+            margin-right: 15px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 5px 0 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .verse {
+            font-size: 1.5rem;
+            margin: 20px 0;
+        }
+
+        .donate {
+            margin: 30px 0;
+        }
+
+        .donate ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .donate ul li {
+            background-color: rgba(0, 0, 0, 0.8);
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .donate ul li a {
+            color: #1abc9c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .forum-box {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 800px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\CARL\Downloads\megafono_cruz_logo.png" alt="Logo ECEM">
+            <h1>ECEM</h1>
+        </div>
+        <p>Estructura Cristiana de Evangelización Mundial</p>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#mensaje">Mensaje</a>
+        <a href="#donaciones">Donaciones</a>
+        <a href="#forum">Foro</a>
+        <a href="#lectura">Guía Bíblica</a>
+        <a href="#multimedia">Multimedia</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <div id="inicio">
+            <h2>Bienvenidos a ECEM</h2>
+            <p>"El que creyere y fuere bautizado, será salvo; mas el que no creyere, será condenado. Y estas señales seguirán a los que creen..." - Marcos 16:16-18</p>
+        </div>
+        <div id="mensaje" class="verse">
+            <h3>Versículo Clave</h3>
+            <p>Marcos 16:16-18</p>
+        </div>
+        <div id="donaciones" class="donate">
+            <h3>Apóyanos</h3>
+            <ul>
+                <li><a href="https://www.paypal.com" target="_blank">Donar con PayPal</a></li>
+                <li>Banco de Chile: Cuenta N° 123456789</li>
+                <li>Banco Estado: Cuenta N° 987654321</li>
+                <li>Tarjeta de Crédito: Disponible próximamente</li>
+            </ul>
+        </div>
+        <div id="forum" class="forum-box">
+            <h3>Foro de Discusión</h3>
+            <div class="chat-history">
+                <p><strong>Juan:</strong> ¿Qué opinan de Marcos 16:16?</p>
+                <p><strong>María:</strong> Es un versículo poderoso sobre la fe.</p>
+            </div>
+            <p>Únete a nuestra comunidad para debatir temas de fe y compartir testimonios.</p>
+            <textarea rows="5" cols="40" placeholder="Escribe tu mensaje aquí..."></textarea>
+            <button>Enviar</button>
+            <h4>Temas de discusión:</h4>
+            <select>
+                <option value="salvacion">La Salvación</option>
+                <option value="milagros">Milagros</option>
+                <option value="amor">El Amor de Dios</option>
+            </select>
+        </div>
+        <div id="lectura" class="dynamic-content">
+            <h3>Guía de Lectura Bíblica Dinámica</h3>
+            <iframe src="guia_biblica.html" title="Guía Bíblica" height="300" style="border:none;"></iframe>
+        </div>
+        <div id="multimedia" class="dynamic-content">
+            <h3>Galería de Fotos y Videos</h3>
+            <img src="evento1.jpg" alt="Evento 1">
+            <img src="evento2.jpg" alt="Evento 2">
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+        </div>
+        <div class="language">
+            <h3>Selecciona tu idioma</h3>
+            <button onclick="alert('Traducción al francés disponible próximamente')">Français</button>
+            <button onclick="alert('Tradiksyon an Kreyòl Ayisyen ap vini byento')">Kreyòl Ayisyen</button>
+        </div>
+    </main>
+    <footer>
+        <h3>Donaciones</h3>
+        <ul>
+            <li><a href="https://www.paypal.com" target="_blank">Donar con PayPal</a></li>
+            <li>Banco de Chile: Cuenta N° 123456789</li>
+            <li>Banco Estado: Cuenta N° 987654321</li>
+            <li>Tarjeta de Crédito: Disponible próximamente</li>
+        </ul>
+        <p>Contáctanos al +56959072191 o por correo: <a href="mailto:kjone45@yahoo.fr">kjone45@yahoo.fr</a></p>
+        <p>&copy; 2025 ECEM - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
